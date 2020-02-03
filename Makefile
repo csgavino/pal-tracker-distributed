@@ -33,3 +33,15 @@ getTime:
 
 run:
 	./gradlew bootRun --parallel
+
+a:
+	./gradlew :applications:allocations-server:bootRun
+
+b:
+	./gradlew :applications:backlog-server:bootRun
+
+c:
+	./gradlew :applications:timesheets-server:bootRun
+
+d:
+	./gradlew :applications:registration-server:bootRun
